@@ -6,7 +6,7 @@ export const withAuth = (Component) => {
 
       const Auth = (props) => {
             useEffect(() => {
-                  if (!meta?.auth) Router.push("/");
+                  if (!meta?.auth) Router.push("/login");
             });
 
             return <Component {...props} />;
