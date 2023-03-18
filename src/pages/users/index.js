@@ -14,8 +14,8 @@ function Users() {
 
 Users.meta = {
       withLayout: true,
+      auth: true,
       module: "users",
-      name: "Users",
 }
 
 export default Users;
