@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { withAuth } from "@/hoc"
 
 const Users = () => {
