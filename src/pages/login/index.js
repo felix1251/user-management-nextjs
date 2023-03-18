@@ -5,7 +5,7 @@ const Login = () => {
 Login.meta = {
       withLayout: false,
       auth: false,
-      module: "users",
+      module: "login",
 }
 
 export default Login;
