@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
   return layout(
     <>
       <Head>
-        <title>{meta?.head}</title>
+        <title>{meta?.head || "User Management"}</title>
       </Head>
       <Component {...pageProps} />
     </>
