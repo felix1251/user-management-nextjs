@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { withAuth } from "@/hoc"
 
-function Users() {
+const Users = () => {
       return (
             <div className="text-red-800">
                   <Head>
