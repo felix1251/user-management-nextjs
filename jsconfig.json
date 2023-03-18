@@ -2,7 +2,8 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./src/*"],
-      "@/components/*": ["./src/pages/components/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/hoc/*": ["./src/hoc/*"]
     }
   }
 }
