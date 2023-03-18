@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { withAuth } from "@/hoc"
 
 function Users() {
       return (
@@ -18,6 +19,6 @@ Users.meta = {
       module: "users",
 }
 
-export default Users;
+export default withAuth(Users);
 
 
