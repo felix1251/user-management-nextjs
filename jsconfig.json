@@ -4,7 +4,9 @@
       "@/*": ["./src/*"],
       "@/components/*": ["./src/components/*"],
       "@/hoc/*": ["./src/hoc/*"],
-      "@/pages/*": ["./src/pages/*"]
+      "@/pages/*": ["./src/pages/*"],
+      "@/organisms": ["./src/components/organisms"],
+      "@/templates": ["./src/components/templates"]
     }
   }
 }

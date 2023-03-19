@@ -1,4 +1,4 @@
-import AuthLayout from '@/components/templates/authLayout'
+import { AuthLayout } from '@/templates'
 import Head from 'next/head'
 import '@/styles/globals.css'
 
