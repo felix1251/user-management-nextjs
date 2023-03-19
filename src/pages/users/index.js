@@ -6,14 +6,14 @@ const Users = () => {
                   Hi im felix
             </div>
       )
-}
+};
 
 Users.meta = {
       withLayout: true,
       auth: true,
       module: "users",
       head: "Users",
-}
+};
 
 export default withAuth(Users);
 

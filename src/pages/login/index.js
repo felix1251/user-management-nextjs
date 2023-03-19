@@ -7,6 +7,6 @@ Login.meta = {
       auth: false,
       module: "login",
       head: "Login"
-}
+};
 
 export default Login;
