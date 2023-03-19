@@ -1,7 +1,7 @@
 const Login = () => {
       return (
             <div className="flex justify-center items-center h-screen">
-                  <div className="grid rounded-lg p-5 bg-white w-80">
+                  <form className="grid rounded-lg p-5 bg-white w-80">
                         <h2 className="text-center font-medium text-gray-800 text-lg mb-2">Login / Signup</h2>
                         <div className="space-y-3 mb-5">
                               <div className="space-y-1 grid">
@@ -14,8 +14,8 @@ const Login = () => {
                               </div>
                               <a className="text-xs cursor-pointer underline text-blue-500">forgot password?</a>
                         </div>
-                        <button className="h-fit py-1.5 bg-blue-600 hover:bg-blue-700 rounded-md text-white">Login</button>
-                  </div>
+                        <button type="submit" className="h-fit py-1.5 bg-blue-600 hover:bg-blue-700 rounded-md text-white">Login</button>
+                  </form>
             </div>
       )
 };
