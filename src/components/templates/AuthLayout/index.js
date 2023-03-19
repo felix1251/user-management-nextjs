@@ -1,4 +1,5 @@
 import { Sidebar } from "@/organisms";
+import { Container } from "@/atoms";
 
 function AuthLayout(children) {
       return (
@@ -10,9 +11,9 @@ function AuthLayout(children) {
                                     <h2 className="font-medium text-md cursor-pointer">Logout</h2>
                               </div>
                         </header>
-                        <div className="max-w-7xl mx-auto p-3">
+                        <Container>
                               {children}
-                        </div>
+                        </Container>
                   </div>
             </div>
       )
