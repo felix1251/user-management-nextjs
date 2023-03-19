@@ -2,7 +2,7 @@ import { withAuth } from "@/hoc"
 
 const Users = () => {
       return (
-            <div className="text-red-800">
+            <div className="bg-white p-3 shadow-sm rounded-md">
                   Hi im felix
             </div>
       )
