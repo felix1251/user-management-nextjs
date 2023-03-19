@@ -6,7 +6,8 @@
       "@/hoc/*": ["./src/hoc/*"],
       "@/pages/*": ["./src/pages/*"],
       "@/organisms": ["./src/components/organisms"],
-      "@/templates": ["./src/components/templates"]
+      "@/templates": ["./src/components/templates"],
+      "@/atoms": ["./src/components/atoms"]
     }
   }
 }
