@@ -6,11 +6,11 @@ const Login = () => {
                         <div className="space-y-3 mb-5">
                               <div className="space-y-1 grid">
                                     <label className="text-sm text-gray-800">Email</label>
-                                    <input className="border text-sm rounded-md px-3 py-2" placeholder="Email" type="text" />
+                                    <input className="border text-sm rounded-md px-3 py-2" required placeholder="Email" type="text" />
                               </div>
                               <div className="space-y-1 grid">
                                     <label className="text-sm text-gray-800">Password</label>
-                                    <input className="border text-sm rounded-md px-3 py-2" placeholder="Password" type="password" />
+                                    <input className="border text-sm rounded-md px-3 py-2" required placeholder="Password" type="password" />
                               </div>
                               <a className="text-xs cursor-pointer underline text-blue-500">forgot password?</a>
                         </div>
