@@ -1,7 +1,7 @@
 const Login = () => {
       return (
             <div className="flex justify-center items-center h-screen">
-                  <form className="grid rounded-lg p-5 bg-white w-80">
+                  <form className="grid rounded-lg p-5 bg-white w-80 border">
                         <h2 className="text-center font-medium text-gray-800 text-lg mb-2">Login / Signup</h2>
                         <div className="space-y-3 mb-5">
                               <div className="space-y-1 grid">

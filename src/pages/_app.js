@@ -1,6 +1,6 @@
-import AuthLayout from '@/components/layouts/authLayout'
-import '@/styles/globals.css'
+import AuthLayout from '@/components/templates/authLayout'
 import Head from 'next/head'
+import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
   const { meta } = Component
