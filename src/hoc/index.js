@@ -1,14 +1,13 @@
-import { useEffect } from "react";
 import Router from "next/router";
 
 export const withAuth = (Component) => {
       const { meta } = Component;
 
       const Auth = (props) => {
-            useEffect(() => {
-                  if (!meta?.auth) Router.push("/login");
-            });
-
+            if (!meta?.auth) {
+                  Router.push("/login")
+                  return null;
+            };
             return <Component {...props} />;
       };
 
